@@ -1,7 +1,8 @@
-print("Wir  zählen jetzt mit einer for-Schleife:")
+# Eine eigene Funktion definieren
+def begruessung(name):
+    print("Hallo " + name + "! Schön, dass du da bist.")
+    print("Lass uns weiterprogrammieren!")
 
-for zahl in range(1, 4):
-    print("Durchlauf Numme:", zahl)
-
-    print("Fertig!")
-    
+#Die Funktion aufrufen
+begruessung("Anna")
+begruessung("Ben")
