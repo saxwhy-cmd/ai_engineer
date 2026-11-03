@@ -1,12 +1,7 @@
-name = input("Wie hiesst du? ")
-geburtsjahr_text = input("In welchem Jahr bist du geboren? ")
-geburtsjahr = int(geburtsjahr_text)
+print("Wir  zählen jetzt mit einer for-Schleife:")
 
-alter = 2026 - geburtsjahr
+for zahl in range(1, 4):
+    print("Durchlauf Numme:", zahl)
 
-print("Hallo " + name + "! Du wirst dieses Jahr " " str(alter) " " Jahre alt.")
-
-if alter >= 18:
-    print("Super, du bist volljährig!")
-else:
-    print("Du bist noch minderjährig - geniess die Jugend!")
+    print("Fertig!")
+    
